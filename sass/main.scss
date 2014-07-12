@@ -1,0 +1,37 @@
+nav ul{
+			display: inline;
+		}
+		ul{
+			padding: 0px !important;
+		}
+		ul>li{
+			display: block;
+		}
+		.title{
+				margin: 0 auto;
+				float:center;
+				text-align: center;
+			}
+		.select{
+			max-width:30%;
+			margin: 6% auto
+		}
+		.start{
+			width:50%;
+			margin: 20px auto;
+		}
+		.move-out-left{
+			-webkit-transform: translate3d(-100%, 0, 0);
+		}
+		.move-in-right{
+			-webkit-transform: translate3d(100%, 0, 0);
+		}
+		.content{
+			transition-property: all;
+			transition-duration: .5s;
+			transition-timing-function: ease-in-out;
+			transition-delay:.2s;
+		}
+		.question{
+			margin-top:1em;
+		}
